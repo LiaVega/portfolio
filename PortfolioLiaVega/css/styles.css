@@ -1,0 +1,158 @@
+body{
+  font-family: Montserrat;
+}
+.logo img{
+  width: 100px;
+  float:left;
+  padding: 30px 0 0 60px;
+}
+nav{
+  height: 100px;
+  border-bottom: 1px #4FBC9B solid;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+nav ul{
+  float:right;
+  padding: 50px 100px;
+}
+nav ul li{
+  display: inline-block;
+  font-size: 14px;
+  padding-left: 20px;
+  color: #323C46;
+
+}
+.item1:hover {
+    color: #4FBC9B;
+}
+header .imageHeader{
+  background-image: url('../images/MainHeader.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding-top: 100px;
+}
+.imageHeader h1{
+color: #323C46;
+padding-left: 60px;
+}
+.title{
+  font-size: 60px;
+  padding-top: 130px;
+  letter-spacing: -5px;
+}
+.subtitle{
+  font-size: 120px;
+  letter-spacing: -5px
+}
+.container{
+  overflow: hidden;
+  width: 100%;
+  background-color:rgba(0,0,0,0.1);
+  margin: 0 auto;
+}
+.container h1{
+  padding: 40px;
+  color: #323C46;
+}
+.container-bio{
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.container-bio img{
+  padding: 200px 60px 60px;
+  float: left;
+  width: 40%;
+}
+.info{
+  width: 40%;
+  padding-top: 120px;
+  color: #323C46;
+  float: left;
+}
+.info h1{
+padding-top: 100px;
+padding-left: 40px;
+margin-bottom: 40px;
+}
+.info p{
+  color: #323C46;
+  font-weight: lighter;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  line-height: 22px;
+}
+.info p span{
+  font-weight: normal;
+}
+.mail{
+  font-weight: bold;
+  color: #4FBC9B;
+}
+iframe{
+  padding: 200px 0 50px;
+}
+.fa-envelope{
+  color: #4FBC9B;
+  font-size: 30px;
+  padding-left: 20px;
+}
+.card{
+  overflow: hidden;
+  float: left;
+  width: 30%;
+  padding: 40px 20px;
+  background-color: white;
+  text-align: center;
+  height: 500px;
+  margin: 1.5%;
+  box-sizing: border-box;
+}
+
+.card img{
+  width: 80%;
+  align-items: center;
+}
+.card h2{
+  color: #323C46;
+  padding-top: 40px;
+}
+.card p{
+  color: #323C46;
+  font-weight: lighter;
+}
+.container-project{
+  padding-top: 120px;
+}
+.project{
+  margin: 100px 30%;
+}
+.project img{
+  width: 90%;
+}
+.project h1{
+  margin: 20px 0px;
+}
+.project p{
+  padding: 20px 0;
+  color: #323C46;
+  line-height: 20px;
+  font-weight: lighter;
+}
+footer{
+  height: 100px;
+  background-color:#323C46;
+}
+footer .social{
+  padding-left: 60px;
+  padding-top: 40px;
+}
+footer .fa{
+  font-size:24px;
+  color: #4FBC9B;
+  padding-right:40px;
+}
